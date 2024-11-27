@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "install-server": "cd backend && npm install",
-    "start-server": "cd backend && node server.js",
+    "install-server": " npm install",
+    "start-server": " node server.js",
     "install-client": "cd mini_blog && npm install",
     "build-client": "cd mini_blog && npm run build",
     "start-client": "cd mini_blog && npm run start"
