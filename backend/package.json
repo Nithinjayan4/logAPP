@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "build": " backend && npm run build"
-    
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node server.js",
+    "install-client": "cd mini_blog && npm install",
+    "build-client": "cd mini_blog && npm run build",
+    "start-client": "cd mini_blog && npm run start"
 
   },
   "author": "",
