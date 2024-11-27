@@ -14,7 +14,7 @@ const app = express()
 
 
 //middleware 
-app.use(cors())
+app.use(cors({origin: 'https://miniblogs12.netlify.app'}))
 app.use(bodyParser.json())
 
 
