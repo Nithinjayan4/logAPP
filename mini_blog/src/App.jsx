@@ -2,7 +2,7 @@ import  { useEffect, useState } from 'react';
 import PostForm from './components/PostForm';
 import PostList from './components/PostList';
 
-const API_URL = 'http://localhost:5000/api/postRoutes';
+const API_URL = 'https://logapp-nc6j.onrender.com';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
